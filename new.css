@@ -1,0 +1,108 @@
+.account-container {
+    background: white;
+    border: solid 5px white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 350px;
+  }
+  
+  .form {
+    display: none;
+    flex-direction: column;
+  }
+  
+  .form.active {
+    display: flex;
+  }
+  
+  .form h2 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .form input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .form button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .toggle-text button {
+    background: none;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0;
+  }
+  
+  
+    form {
+      background: #ffffff;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    input {
+      margin: 5px 0;
+      padding: 10px;
+      width: 90%;
+    }
+    button {
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border: none;
+    }
+  
+  
+  
+    #categoryFilter {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .pagination button {
+      padding: 8px 15px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .pagination button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }

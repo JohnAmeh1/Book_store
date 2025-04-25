@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.head {
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/b2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+body,html {
+  scroll-behavior: smooth;
+
+}
+
+
+nav{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: auto;
+ 
+}
+
+.nav_links{
+  display: flex;
+  padding-right: 40px;
+  gap: 30px;
+  list-style: none;
+}
+
+li{
+  margin-top: 30px;
+  
+
+}
+
+li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btn_cnt{
+  padding: 15px ;
+  margin-top: 30px;
+  height: 43px;
+  background-color: rgb(54, 0, 0);
+  margin-right: 25px;
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255) 3px;
+}
+.btn_cnt:hover{
+  background-color: #000000;
+}
+
+.btn_read{
+  padding: 15px ;
+  margin-top: 30px;
+  height: 43px;
+  background-color: rgb(54, 0, 0);
+  margin-right: 25px;
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255) 3px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.btn_read:hover{
+  background-color: black;
+}
+
+
+.logo1 img{
+  width: 150px;
+  margin-left: -1px;
+  margin-top: -5px;
+  color: white;
+}
+
+.logo1 h2{
+  margin-left: 20px;
+  margin-top: -10px;
+  color: white;
+}
+
+.btn_cnt h2{
+  color: white;
+  font-size: 15px;
+}
+
+.btn_header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.btn_header h2{
+  color: white;
+}
+
+.btn1{
+  padding: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid 1px white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.header_description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+  margin-top: 250px;
+  margin-left: 180px;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 1200px;
+}
+
+
+.header1{
+     text-align: center;
+     color: white;
+     font-weight: bold;
+
+}
+
+.header1 .para{
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.view-books-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: solid 3px white;
+  font-size: 23px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-books-btn:hover {
+  background-color: #580000;
+}
+
+
