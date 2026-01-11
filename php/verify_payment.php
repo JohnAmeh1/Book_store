@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // Set your Paystack secret key
-$paystackSecretKey = 'sk_test_b91e0557f6dca556b24425e6f6683cba1e86c25b';
+$paystackSecretKey = '';
 
 $data = json_decode(file_get_contents('php://input'), true);
 $reference = $data['reference'] ?? null;
