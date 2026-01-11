@@ -577,7 +577,7 @@ foreach ($cart_items as $item) {
 
             // Initialize Paystack
             const handler = PaystackPop.setup({
-                key: 'pk_test_fdeb97ce15dc119e28cc589fcb24fac669b14f81', // Replace with your Paystack public key
+                key: '', // Replace with your Paystack public key
                 email: email,
                 amount: total,
                 currency: 'NGN',
